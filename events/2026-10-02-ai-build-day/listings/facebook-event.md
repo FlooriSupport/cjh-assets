@@ -20,46 +20,48 @@ the whole thing, so they're doing the heavy lifting here.)
 ```
 LIVE, IN PERSON — Friday Oct 2, 1–4 PM, North Dallas. Free, 20 seats, bring a laptop.
 
-Not a webinar. Not a panel. Not a talk about the future of AI. You walk in with a real problem in your business and walk out three hours later with a working thing that runs without you.
+For Dallas service trade owners. Not a webinar, not a panel, not another talk about the future of AI — you show up with one real problem in your business and walk out three hours later with it automated and running.
 
-Here's the deal: at 1:00 I build one in front of you from scratch in ten minutes, no slides. At 1:15 the room votes on which three builds we're doing. Then we build. At 3:25 every single person demos what they made in 90 seconds. That's the price of the free seat — you finish something and you show it.
-
-WHAT'S ON THE MENU (we vote, top 3 win)
-
-1. A map of every decision maker in your market — name, title, company, work email, direct mobile, in a spreadsheet you keep
-2. Missed call → text back in 30 seconds
-3. Inbound lead → real personalized reply in 60 seconds, booked to your calendar
-4. Notes in → finished branded proposal out
-5. Monday 7am brief on who in your market just hired, moved, expanded or raised money
-6. Every Google review answered in your voice, queued for approval
-7. Talk into your phone after a job site visit → CRM note + follow-up email written for you
-8. Dump your numbers in → plain-English answer to "what's actually making me money"
+Here's how it works: at 1:00 I build one live in front of you, from nothing, ten minutes, no slides. At 1:15 the room votes and we take the 2–3 automations the most people actually need. Then we build them together. At 3:25 every single person demos what they made in 90 seconds. That's the price of the free seat — you finish something and you show it.
 
 YOU DON'T NEED TO BE TECHNICAL
 
-This is the part people get wrong about events like this. You are not writing code and you are not learning a programming language.
+You're not writing code. You need three things: a laptop, admin access to your own tools, and a paid ChatGPT or Claude account. If you can log into your CRM and your email, you can build what we're building.
 
-What you actually need is three things: a laptop, admin access to your own tools, and a paid ChatGPT or Claude account. That's it. If you can log into your CRM and your email, you can build what we're building.
+The people who struggle are never the non-technical ones — they're the ones who can't get into their own systems. So if your web guy set up your forms, or your phone system is controlled by a vendor, sort that out before Friday.
 
-The people who struggle are never the non-technical ones. They're the ones who can't get into their own systems. So if your web guy set up your forms, or your phone system is controlled by a vendor, sort that out before Friday.
+And if you've got someone who handles your marketing or your tech, bring them. Two from the same business works better than one: somebody who knows what's broken, somebody who knows where the logins are.
 
-And if you have someone who handles your marketing or your tech, bring them. This works better with two people from the same business — one who knows what's broken, one who knows where the logins are.
+WHAT THE ROOM USUALLY BUILDS (you vote, top few win)
+
+• A map of every decision maker in your market — name, title, company, work email, direct mobile
+• Missed call → text back in 30 seconds
+• Inbound lead → real personalized reply in 60 seconds, booked to your calendar
+• Notes in → finished branded proposal out
+• Monday 7am brief on who in your market just hired, expanded or moved
+• Every Google review answered in your voice
+• Voice note after a site visit → CRM note + follow-up email written for you
+• Your numbers in → plain-English answer to "what's actually making me money"
+
+If yours isn't on there, put it on the form and we'll add it to the ballot.
 
 WHO IT'S FOR
-Owners and operators. Contractors, home services, commercial services, agencies, B2B. If you've got customers and a phone that rings, you're it.
+Dallas–Fort Worth service trade owners and operators. Contractors, commercial and home services, flooring, roofing, cleaning, mechanical, landscaping, and the B2B shops that sell to them.
 
 WHO IT'S NOT FOR
 Anybody who wants to sit and watch. 20 seats, 20 people building. No observers.
 
 BRING
-Laptop (not an iPad). Charger. A paid ChatGPT or Claude account — free tiers will stall you halfway. Logins to your CRM/email/phone system, and your password manager. Real data: a customer list, your last 5 proposals, your actual inbox. And one number: what a new customer is worth to you.
+Laptop (not an iPad). Charger. A paid ChatGPT or Claude account. Your logins, and your password manager. Real data — a customer list, your last 5 proposals, or your actual inbox. And one number: what a new customer is worth to you.
 
-ABOUT ME
-I'm Yousef Okasheh. I run Commercial Job Hunters here in DFW — 6 years in commercial services, 900+ businesses helped, 5,955 DFW decision makers mapped with verified emails and direct mobiles. I also founded Floori, a product visualizer used by flooring brands worldwide. Everything I'm showing you Friday is something I run in my own companies.
+WHO'S RUNNING IT
+I'm Yousef Okasheh. I run Commercial Job Hunters here in DFW — we help skilled trade businesses win commercial and industrial contracts by replacing word-of-mouth with a proactive hunting system. 900+ businesses helped to grow profit, 6 years in commercial services, 5,955 decision makers mapped across DFW with verified work emails and direct mobiles. I also founded Floori, a product visualizer used by flooring brands on three continents.
+
+I'm not an AI guy who found business. I'm a business guy who got tired of buying lists that were wrong and built the thing myself. Everything I'm showing you Friday is something I run in my own companies.
 
 RSVP (this is where seats are actually held): [LUMA LINK]
 
-Exact North Dallas address goes out to registrants Thursday.
+Doors 12:40, we start at 1:00 sharp. Exact North Dallas address goes to registrants Thursday.
 Questions? Text me: (469) 277-9385
 ```
 

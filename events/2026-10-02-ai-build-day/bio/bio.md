@@ -4,18 +4,17 @@ All of this is sourced from your own material (the CJH growth-plan PDF, your han
 script, the DFW-100 asset pages). **Nothing here is invented** — but check the two
 flagged items before publishing.
 
-> ### ⚠ Two things to confirm
+> ### Status: one open item
 >
-> **1. Spelling of your name.** You said "Yusuf Okasha." Every document in your Drive,
-> your Google account, and your Fathom display name say **Yousef Okasheh** —
-> including the ones you send to clients. I've used *Yousef Okasheh* throughout.
-> If you use a simplified spelling publicly, tell me and I'll flip everything.
+> **1. Spelling of your name — confirmed.** ✅ **Yousef Okasheh**, matching your Drive,
+> your Google account and your Fathom display name. Used everywhere.
 >
-> **2. 900+ vs 1,000+.** You told me 900+. Your handout script says *"over the past
-> 6 years I worked with over 900 commercial services businesses."* But your external
-> growth-plan PDF claims **"1,000+ service businesses helped by Founder."** I used the
-> conservative 900+ everywhere. Say the word if you want 1,000+ — just pick one and
-> use it consistently, because both are currently in circulation.
+> **2. 900+ is settled.** ✅ You chose 900+, and it is used consistently everywhere.
+>
+> One loose end for later, not for Friday: your external growth-plan PDF still claims
+> **"1,000+ service businesses helped by Founder."** That document is in circulation
+> with clients. Worth bringing it in line with 900+ so the two never turn up side by
+> side in front of the same person.
 
 ---
 

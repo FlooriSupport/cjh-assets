@@ -43,7 +43,7 @@ const SIZES = [
 
 const VARIANTS = v1
   ? [['v1', 'cover-v1.html', '']]
-  : [['v4', 'cover-v4.html', '']];
+  : [['cover', 'cover-v4.html', '']];
 
 // Photos: the group shot fills the panel, the headshot fills the signature disc.
 // Either may be absent — the page falls back to its empty-slot state.
