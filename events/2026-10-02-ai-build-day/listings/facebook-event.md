@@ -45,12 +45,12 @@ BRING
 Laptop (not an iPad). Charger. A paid ChatGPT or Claude account — free tiers will stall you halfway. Logins to your CRM/email/phone system, and your password manager. Real data: a customer list, your last 5 proposals, your actual inbox. And one number: what a new customer is worth to you.
 
 ABOUT ME
-I'm Chris, I run Commercial Job Hunters here in DFW. I build decision-maker maps for commercial contractors — 5,955 mapped buyers across Dallas–Fort Worth right now, with verified work emails and direct mobiles. I'm not an AI guy who found business, I'm a business guy who got tired of buying lists that were wrong and built the thing myself. Everything I'm showing you Friday is something I run in my own company.
+I'm Yousef Okasheh. I run Commercial Job Hunters here in DFW — 6 years in commercial services, 900+ businesses helped, 5,955 DFW decision makers mapped with verified emails and direct mobiles. I also founded Floori, a product visualizer used by flooring brands worldwide. Everything I'm showing you Friday is something I run in my own companies.
 
 RSVP (this is where seats are actually held): [LUMA LINK]
 
 Exact North Dallas address goes out to registrants Thursday.
-Questions? Text me: (240) 410-5210
+Questions? Text me: (469) 277-9385
 ```
 
 ## Where Facebook actually pays off this week

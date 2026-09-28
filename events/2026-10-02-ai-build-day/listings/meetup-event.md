@@ -34,7 +34,7 @@ Dallas entrepreneur, and DFW small-business groups, and message the organizer di
 > Hey [name] — I'm running a free hands-on AI build session for business owners
 > Friday afternoon in North Dallas. Not a pitch, everyone leaves with something
 > working. 20 seats. Would it be okay to share it with the group, or would you rather
-> I send it to you and you decide? Happy to do it either way. — Chris
+> I send it to you and you decide? Happy to do it either way. — Yousef Okasheh
 
 Organizers say yes to that framing far more often than to a link drop.
 
@@ -81,8 +81,8 @@ BRING: laptop (not an iPad), charger, a paid ChatGPT or Claude account, logins f
 
 FREE — the price is that you finish something and demo it. No observers.
 
-I'm Chris, I run Commercial Job Hunters in DFW. I build decision-maker maps for commercial contractors, 5,955 mapped across Dallas–Fort Worth. Everything I'm showing you is something I run in my own company.
+I'm Yousef Okasheh. I run Commercial Job Hunters here in DFW — 6 years in commercial services, 900+ businesses helped, 5,955 DFW decision makers mapped with verified emails and direct mobiles. I also founded Floori, a product visualizer used by flooring brands worldwide. Everything I'm showing you Friday is something I run in my own companies.
 
 RSVP holds your seat: [LUMA LINK]
-Address goes out Thursday. Questions: (240) 410-5210
+Address goes out Thursday. Questions: (469) 277-9385
 ```

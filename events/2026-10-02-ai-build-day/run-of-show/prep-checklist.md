@@ -60,9 +60,9 @@ At 3:25 everybody demos what they made. 90 seconds. Yes, everybody. That's the d
 
 Address and parking come Thursday afternoon.
 
-Questions before Friday, text me: (240) 410-5210
+Questions before Friday, text me: (469) 277-9385
 
-— Chris
+— Yousef Okasheh
 ```
 
 ---
@@ -79,7 +79,7 @@ Questions before Friday, text me: (240) 410-5210
 
 And come with ONE annoying weekly task in your head. That's what you'll build.
 
-See you at 1. — Chris
+See you at 1. — Yousef Okasheh
 ```
 
 ---

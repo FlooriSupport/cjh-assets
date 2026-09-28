@@ -85,7 +85,7 @@ through, and only if you can see the power situation with your own eyes first.
 
 Call, don't email. Email on a Monday for a Friday is a lost week.
 
-> Hi — my name's Chris, I run a business here in DFW. I'm hosting a free workshop for
+> Hi — my name's Yousef, I run a business here in DFW. I'm hosting a free workshop for
 > local business owners this Friday afternoon, one to four, and I'm looking for a room
 > for about twenty people with power and wifi.
 >

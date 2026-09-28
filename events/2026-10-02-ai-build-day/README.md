@@ -40,10 +40,10 @@ Every file uses these placeholders. Fix all three and the copy is ready to paste
 |---|---|---|
 | `[LUMA LINK]` | Your lu.ma URL. Requested slug: `lu.ma/ai-build-dallas` | **Monday — nothing else can start until this exists** |
 | `[VENUE]` / `[FULL ADDRESS]` | Venue name + address. Listings say "North Dallas, address to registrants" until then. | **Tuesday** |
-| `[LAST NAME]` | Your last name — I only ever found "Chris" in the repo | Before publishing the bio |
+| ~~`[LAST NAME]`~~ | **Done** — confirmed as Yousef Okasheh from your Drive. See `bio/bio.md` for a spelling flag. | — |
 
-Also swap `HOSTED BY CHRIS` in `cover/cover.html` if you want your full name on the
-cover art, then re-run `node cover/build.mjs`.
+The cover already carries your name, the (469) 277-9385 number, and three verified
+proof points. Re-render any time with `node cover/build.mjs --full`.
 
 ---
 

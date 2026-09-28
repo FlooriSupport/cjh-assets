@@ -74,13 +74,13 @@ It is free. The price is that you finish something and demo it. If you are not g
 
 ABOUT ME
 
-I'm Chris. I run Commercial Job Hunters here in DFW. I build decision-maker maps for commercial contractors — 5,955 mapped buyers across Dallas–Fort Worth at last count, with verified work emails and direct mobiles. I am not an AI guy who wandered into business. I am a business guy who got tired of buying lists that were wrong, built the thing myself, and now does it for a living. Everything I am showing you Friday is something I actually run inside my own company.
+I'm Yousef Okasheh. I run Commercial Job Hunters here in DFW — we help skilled trade businesses win commercial and industrial contracts by replacing word-of-mouth with a proactive hunting system. Six years in commercial services, 900+ businesses helped to grow profit, and 5,955 decision makers mapped across Dallas–Fort Worth with verified work emails and direct mobiles. I also founded Floori, a product visualizer used by flooring brands and retailers on three continents. I'm not an AI guy who wandered into business. I'm a business guy who got tired of buying lists that were wrong, built the thing myself, and now does it for a living. Everything I'm showing you Friday is something I actually run inside my own companies.
 
 RSVP
 
 [LUMA LINK]
 
-The exact North Dallas address goes to registrants Thursday. Questions, or you want to know whether your build is a fit — text me: (240) 410-5210
+The exact North Dallas address goes to registrants Thursday. Questions, or you want to know whether your build is a fit — text me: (469) 277-9385
 ```
 
 ## Speakers

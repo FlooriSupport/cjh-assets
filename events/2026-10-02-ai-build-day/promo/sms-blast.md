@@ -53,7 +53,7 @@ No slides, no pitch. You pick one thing in your business — missed calls, propo
 
 20 seats, laptop required: [LUMA LINK]
 
-— Chris, Commercial Job Hunters
+— Yousef, Commercial Job Hunters
 ```
 
 ## D · Follow-up to non-responders
@@ -84,7 +84,7 @@ Reply Y to confirm and I'll hold your seat. I'm releasing unconfirmed seats to t
 
 Bring: laptop + charger, your ChatGPT or Claude login, and logins for whatever we're automating. Bring your password manager, seriously — people lose the whole session to password resets.
 
-See you at 1. — Chris
+See you at 1. — Yousef Okasheh
 ```
 
 Three things are doing work there: the address (real, committing), the deadline
@@ -97,7 +97,7 @@ To confirmed people only.
 ```
 Today at 1. [ADDRESS]. Doors at 12:40 if you want to get set up early — recommend it, we start on time.
 
-Come with one thing you want working by 4. — Chris
+Come with one thing you want working by 4. — Yousef Okasheh
 ```
 
 ## G · Friday, 12:15 PM — to anyone who confirmed but hasn't said they're en route
@@ -111,7 +111,7 @@ Come with one thing you want working by 4. — Chris
 
 One ask: run it once this week before it goes stale. The ones that die are the ones nobody touches for 10 days.
 
-Anything breaks, text me. — Chris
+Anything breaks, text me. — Yousef Okasheh
 ```
 
 Then, separately, to the ones whose build was a decision-maker map:

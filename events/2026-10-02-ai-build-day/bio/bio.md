@@ -1,71 +1,92 @@
-# Bio — Chris, Commercial Job Hunters
+# Bio — Yousef Okasheh
 
-> **Fill these in before publishing** — I built these from what's in this repo
-> (the DFW-100 asset pages) plus what you told me. Anything in `[brackets]` is a
-> guess or a blank I couldn't verify:
+All of this is sourced from your own material (the CJH growth-plan PDF, your handout
+script, the DFW-100 asset pages). **Nothing here is invented** — but check the two
+flagged items before publishing.
+
+> ### ⚠ Two things to confirm
 >
-> - `[LAST NAME]` — I only ever found "Chris" in the assets
-> - `[YEARS]` — how long you've been doing this
-> - Any numbers you want to claim beyond the 5,955 mapped DFW buyers
+> **1. Spelling of your name.** You said "Yusuf Okasha." Every document in your Drive,
+> your Google account, and your Fathom display name say **Yousef Okasheh** —
+> including the ones you send to clients. I've used *Yousef Okasheh* throughout.
+> If you use a simplified spelling publicly, tell me and I'll flip everything.
 >
-> The 5,955 figure and the verified-email/direct-mobile claim both come straight off
-> your own DFW-100 page, so those are yours and they're safe to use.
+> **2. 900+ vs 1,000+.** You told me 900+. Your handout script says *"over the past
+> 6 years I worked with over 900 commercial services businesses."* But your external
+> growth-plan PDF claims **"1,000+ service businesses helped by Founder."** I used the
+> conservative 900+ everywhere. Say the word if you want 1,000+ — just pick one and
+> use it consistently, because both are currently in circulation.
 
 ---
 
-## One line — for the event listing header
+## Verified proof points — safe to use
+
+| Claim | Source |
+|---|---|
+| **900+** businesses helped to grow profit | Your handout script ("over 900 commercial services businesses") |
+| **6 years** in commercial services | Same |
+| **5,955** decision makers mapped across DFW | Your DFW-100 asset page |
+| **100** given away free, with verified direct mobiles | Same |
+| Verified work emails and direct mobiles, not `info@` | Same |
+| Clients typically see **20–30 warm commercial opportunities/month** | Your external growth-plan PDF |
+| Proven in **flooring, roofing, and aerial cleaning** | Same |
+| Founder of **Floori**, a product visualizer used by flooring brands and retailers internationally | Your Floori customer and subscription records |
+
+**Do not put on a public listing:** your pricing ($1,000 setup / ~$1,500 mo), the
+internal training deck, objection scripts, or any named Floori customer. Those all
+turned up in the same search and none of them belong on an event page.
+
+---
+
+## One line — event listing header
 ```
-Chris [LAST NAME] runs Commercial Job Hunters, a DFW company that builds decision-maker maps for commercial contractors.
+Yousef Okasheh runs Commercial Job Hunters, a DFW company that helps skilled trade businesses win commercial contracts — and founded Floori, a product visualizer used by flooring brands worldwide.
 ```
 
-## Short — 40 words. Use on Luma, Meetup, the Facebook event.
+## Short — ~50 words. Luma, Facebook event, Meetup.
 ```
-I'm Chris. I run Commercial Job Hunters here in DFW, building decision-maker maps for commercial contractors — 5,955 mapped buyers across Dallas–Fort Worth with verified work emails and direct mobiles. Everything I'm showing you Friday is something I run in my own company.
-```
-
-## Medium — 90 words. Use on LinkedIn, and read a version of this out loud at 1:12.
-```
-I'm Chris. I run Commercial Job Hunters here in DFW.
-
-What I actually do: I build decision-maker maps for commercial contractors. Right now that's 5,955 named buyers across Dallas–Fort Worth — real titles, real companies, verified work emails, direct mobiles.
-
-I'm not an AI guy who wandered into business. I'm a business guy who got tired of buying lead lists that were wrong, built the thing myself, and now does it for a living.
-
-Everything I'm showing you Friday is something I actually run inside my own company. None of it is theoretical.
+I'm Yousef Okasheh. I run Commercial Job Hunters here in DFW — 6 years in commercial services, 900+ businesses helped, 5,955 DFW decision makers mapped with verified emails and direct mobiles. I also founded Floori, a product visualizer used by flooring brands worldwide. Everything I'm showing you Friday is something I run in my own companies.
 ```
 
-## Long — for a website or a partner's newsletter
+## Medium — ~110 words. LinkedIn and the event descriptions.
 ```
-Chris [LAST NAME] is the founder of Commercial Job Hunters, a Dallas–Fort Worth company that builds decision-maker maps for commercial contractors — the named buyers, at the named companies, with the work emails and the direct mobile numbers that actually connect.
+I'm Yousef Okasheh. I run Commercial Job Hunters here in DFW — we help skilled trade businesses win commercial and industrial contracts by replacing word-of-mouth with a proactive hunting system. Six years in commercial services, 900+ businesses helped to grow profit, and 5,955 decision makers mapped across Dallas–Fort Worth with verified work emails and direct mobiles. I also founded Floori, a product visualizer used by flooring brands and retailers on three continents.
 
-The company exists because of a specific frustration: every lead list Chris bought was stale, mis-titled, or full of generic info@ addresses, and every "data provider" charged a subscription for the privilege. So he built the infrastructure himself. Today Commercial Job Hunters maintains a map of 5,955 decision makers across DFW, and builds custom slices of it for contractors who'd rather call the right person than buy another 10,000 bad rows.
+I'm not an AI guy who wandered into business. I'm a business guy who got tired of buying lists that were wrong, built the thing myself, and now does it for a living. Everything I'm showing you Friday is something I actually run inside my own companies.
+```
 
-That work sits on top of a stack of AI and automation that Chris runs day to day — enrichment pipelines, research agents, outbound systems, document generation. He teaches it the same way he built it: hands on the keyboard, one real problem at a time, nothing that doesn't survive contact with an actual business.
+## Long — website or a partner's newsletter
+```
+Yousef Okasheh is the founder of Commercial Job Hunters, a Dallas–Fort Worth company that helps skilled trade and commercial services businesses win commercial and industrial contracts — replacing unpredictable word-of-mouth with a proactive hunting system built on real data.
+
+The company exists because of a specific frustration: the lead lists on the market were stale, mis-titled, and full of generic info@ addresses. So he built the infrastructure himself. Commercial Job Hunters now maintains a map of 5,955 decision makers across DFW — facility managers, property managers, estimators, general contractors, project managers — with verified work emails and direct mobile numbers, and builds custom slices of it for contractors who would rather call the right person than buy another ten thousand bad rows. Clients typically see 20 to 30 warm commercial opportunities a month, with the approach proven across flooring, roofing and aerial cleaning.
+
+Over six years he has worked with more than 900 commercial services businesses. He is also the founder of Floori, a product visualizer used by flooring brands and retailers internationally.
 
 He runs free build sessions for DFW owners and operators, where the only rule is that everybody leaves with something that works.
 ```
 
-## Spoken version — for 1:12 Friday, after the cold open
+## Spoken — 1:12 Friday, after the cold open
 
 Don't read this. These are the beats. Thirty seconds, maximum.
 
-1. *"I'm Chris, I run Commercial Job Hunters here in DFW."*
-2. *"I build lists of decision makers for commercial contractors — right now about
-   six thousand of them mapped across the Metroplex, with direct mobiles."*
-3. *"I'm not an AI guy. I'm a business guy who got sick of paying for lists that were
+1. *"I'm Yousef. I run Commercial Job Hunters here in DFW."*
+2. *"We help trade businesses win commercial contracts — I've got about six thousand
+   decision makers mapped across the Metroplex with direct mobiles."*
+3. *"Six years, nine hundred–some businesses. I also built Floori, a visualizer that
+   flooring brands use around the world."*
+4. *"I'm not an AI guy. I'm a business guy who got sick of paying for lists that were
    wrong and built it myself."*
-4. *"Everything I'm about to show you runs in my own company. That's the only reason
+5. *"Everything I'm about to show you runs in my own companies. That's the only reason
    I'd stand up here."*
 
 Then go straight to the vote. **Do not do a credibility run-up.** You just built
 something in front of them for ten minutes — that was your credential. Anything past
 thirty seconds here starts spending it.
 
-## Credibility lines you've earned — use sparingly, one at a time
-- 5,955 decision makers mapped across Dallas–Fort Worth
-- Verified work emails and direct mobile numbers, not `info@`
-- Commercial only. DFW born.
-- "I give away 100 of them free, with the mobiles, no form. That's the sample."
+## Throwaway lines that work in conversation at 4:15
+- "I give away 100 DFW decision makers free, with the mobiles, no form. That's the sample."
+- "Most commercial services businesses are farming, not hunting."
+- "About 80–90% of companies in this space are still running on referrals alone."
 
-That last one is a strong throwaway in conversation at 4:15, and it walks people
-straight into your actual funnel without you pitching from the front.
+That first one walks people straight into your funnel without you pitching from the front.

@@ -50,7 +50,7 @@ It's free. The price is you finish something and demo it. No observers — 20 se
 
 Bring a laptop. Not an iPad. And bring your password manager, because people lose entire sessions to password resets.
 
-I'm Chris. I run Commercial Job Hunters here in DFW — I build decision-maker maps for commercial contractors, 5,955 buyers mapped across Dallas–Fort Worth with verified emails and direct mobiles. I'm not an AI guy who wandered into business. I'm a business guy who got tired of buying lists that were wrong and built the thing myself.
+I'm Yousef. I run Commercial Job Hunters here in DFW — I build decision-maker maps for commercial contractors, 5,955 buyers mapped across Dallas–Fort Worth with verified emails and direct mobiles. I'm not an AI guy who wandered into business. I'm a business guy who got tired of buying lists that were wrong and built the thing myself.
 
 Everything I'm showing you Friday is something I actually run in my own company.
 
@@ -63,7 +63,7 @@ Seats here: [LUMA LINK]
 
 Free, but I'm approving registrations — there's a question on the form asking what you want built by 4pm. Answer it properly and you're in. 20 seats and I mean 20.
 
-Questions, or you want to know if your build is a fit: (240) 410-5210
+Questions, or you want to know if your build is a fit: (469) 277-9385
 ```
 
 ---

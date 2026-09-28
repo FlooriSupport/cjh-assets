@@ -49,9 +49,9 @@ I'm approving registrations by hand, and there's a question asking what you want
 
 Exact address goes out Thursday.
 
-Chris
+Yousef Okasheh
 Commercial Job Hunters
-(240) 410-5210
+(469) 277-9385
 commercialjobhunter.com
 ```
 

@@ -43,8 +43,8 @@ const SIZES = [
 
 const VARIANTS = v1
   ? [['v1', 'cover-v1.html', '']]
-  : [['v2a-proof',    'cover-v2.html', ''],          // right module = proof numbers
-     ['v2b-outcomes', 'cover-v2.html', 'outcomes']]; // right module = outcome lines
+  : [['v3', 'cover-v3.html', ''],
+     ]; 
 
 // Find a headshot if one has been dropped in.
 const photo = readdirSync(here).find(f => /^photo\.(jpe?g|png|webp)$/i.test(f));
