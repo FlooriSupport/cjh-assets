@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>AI Build Session — Dallas — cover</title>
+<style>
+@font-face{font-family:Archivo;src:url(fonts/archivo-400.ttf) format('truetype');font-weight:400}
+@font-face{font-family:Archivo;src:url(fonts/archivo-600.ttf) format('truetype');font-weight:600}
+@font-face{font-family:Archivo;src:url(fonts/archivo-700.ttf) format('truetype');font-weight:700}
+@font-face{font-family:Archivo;src:url(fonts/archivo-900.ttf) format('truetype');font-weight:900}
+
+:root{
+  --ink:#1D1D1B;      /* CJH ink   */
+  --paper:#F7F5F1;    /* CJH paper */
+  --grid:#C9C4BC;     /* CJH grid  */
+  --accent:#EE5B2B;   /* CJH orange*/
+  --panel:#26261F;
+  --muted:#A9A49A;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden;background:var(--ink)}
+body{font-family:Archivo,"Liberation Sans",Arial,sans-serif;color:var(--paper);
+  -webkit-font-smoothing:antialiased}
+
+/* ---------- shared chrome ---------- */
+.stage{position:relative;width:100vw;height:100vh;display:flex;flex-direction:column;
+  background:var(--ink);overflow:hidden}
+/* faint blueprint grid, echoes --grid from the asset pages */
+.stage::before{content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:linear-gradient(to right,rgba(201,196,188,.055) 1px,transparent 1px),
+                   linear-gradient(to bottom,rgba(201,196,188,.055) 1px,transparent 1px);
+  background-size:3.4vw 3.4vw}
+/* orange corner wedge */
+.stage::after{content:"";position:absolute;right:-6vw;top:-14vw;width:34vw;height:34vw;
+  background:var(--accent);opacity:.10;transform:rotate(18deg);pointer-events:none}
+
+.topbar{position:relative;z-index:3;display:flex;align-items:center;justify-content:space-between;
+  border-bottom:.18vw solid rgba(201,196,188,.22);padding:2.1vw 4.6vw 1.5vw}
+.wordmark{font-weight:900;letter-spacing:.17em;font-size:1.44vw;line-height:1}
+.wordmark i{font-style:normal;color:var(--accent)}
+.hosted{font-weight:600;letter-spacing:.15em;font-size:1.12vw;color:var(--muted)}
+
+.body{position:relative;z-index:3;flex:1;display:flex;gap:4vw;padding:3.3vw 4.6vw 0}
+.left{flex:1 1 57%;display:flex;flex-direction:column;min-width:0}
+.right{flex:0 0 33.5%;display:flex;align-items:flex-start}
+
+.when{display:inline-flex;align-items:center;gap:.9vw;font-weight:700;color:var(--accent);
+  letter-spacing:.13em;font-size:1.36vw;margin-bottom:2.1vw}
+.when b{font-weight:900}
+.when s{text-decoration:none;color:rgba(238,91,43,.5)}
+
+h1{font-weight:900;letter-spacing:-.031em;line-height:.885;font-size:8.5vw;
+  text-transform:uppercase}
+h1 em{font-style:normal;display:block;color:var(--accent)}
+.rule{width:12vw;height:.62vw;background:var(--paper);margin:2.5vw 0 2.1vw}
+.deck{font-weight:600;font-size:2.34vw;line-height:1.24;letter-spacing:-.012em;max-width:23.5ch}
+.deck u{text-decoration:none;color:var(--accent)}
+
+.chips{margin-top:auto;display:flex;flex-wrap:wrap;gap:.95vw;padding-bottom:2.7vw}
+.chip{border:.16vw solid rgba(247,245,241,.34);border-radius:99vw;
+  padding:.82vw 1.6vw;font-weight:700;font-size:1.28vw;letter-spacing:.075em}
+.chip.hot{background:var(--accent);border-color:var(--accent);color:#fff}
+
+/* ---------- build menu card ---------- */
+.card{width:100%;background:var(--panel);border:.16vw solid rgba(201,196,188,.2);
+  border-radius:1vw;padding:2.2vw 2vw 1.5vw}
+.card h2{font-weight:900;font-size:1.36vw;letter-spacing:.115em;color:var(--accent);
+  margin-bottom:1.5vw;line-height:1.3}
+.row{display:flex;gap:1.05vw;align-items:baseline;
+  padding:1.02vw 0;border-top:.1vw solid rgba(201,196,188,.15)}
+.row:first-of-type{border-top:0;padding-top:0}
+.row b{font-weight:900;font-size:1.28vw;color:var(--accent);font-variant-numeric:tabular-nums;
+  flex:0 0 2.5vw}
+.row span{font-weight:600;font-size:1.62vw;line-height:1.2;letter-spacing:-.008em}
+.more{margin-top:1.25vw;padding-top:1.1vw;border-top:.1vw dashed rgba(201,196,188,.28);
+  font-weight:700;font-size:1.2vw;color:var(--muted);letter-spacing:.05em;line-height:1.35}
+
+.footer{position:relative;z-index:3;display:flex;align-items:center;justify-content:space-between;
+  background:var(--accent);color:#fff;padding:1.35vw 4.6vw;font-weight:900;
+  letter-spacing:.13em;font-size:1.3vw}
+.footer span:last-child{font-weight:700;letter-spacing:.09em}
+
+/* ---------- square / portrait variants ---------- */
+/* Stacked layouts: everything must fit the viewport, so the scale steps down
+   from the 16:9 values rather than up. */
+body.sq .body{flex-direction:column;gap:1.6vw;padding:3.4vw 5vw 0}
+body.sq .right{flex:0 0 auto;width:100%}
+body.sq .left{flex:0 0 auto}
+body.sq h1{font-size:10.3vw}
+body.sq .deck{font-size:2.85vw;max-width:24ch}
+body.sq .when{font-size:1.78vw;margin-bottom:2.1vw}
+body.sq .rule{width:15vw;height:.72vw;margin:2.3vw 0 2vw}
+body.sq .chips{margin-top:2.4vw;padding-bottom:0;gap:.95vw}
+body.sq .chip{font-size:1.58vw;padding:.95vw 1.9vw;border-width:.2vw}
+body.sq .wordmark{font-size:1.86vw}
+body.sq .hosted{font-size:1.44vw}
+body.sq .topbar{padding:2.4vw 5vw 1.9vw}
+body.sq .card{padding:2.5vw 2.5vw 1.7vw;border-radius:1.3vw}
+body.sq .card h2{font-size:1.74vw;margin-bottom:1.7vw}
+body.sq .row{padding:.88vw 0}
+body.sq .row b{font-size:1.6vw;flex:0 0 3.1vw}
+body.sq .row span{font-size:1.98vw}
+body.sq .more{font-size:1.46vw;margin-top:1.1vw;padding-top:1vw}
+body.sq .footer{font-size:1.6vw;padding:1.7vw 5vw;margin-top:auto}
+body.sq .stage::before{background-size:5vw 5vw}
+
+body.por .body{flex-direction:column;gap:3vw;padding:5vw 6.5vw 0;justify-content:center}
+body.por .right{flex:0 0 auto;width:100%}
+body.por .left{flex:0 0 auto}
+body.por h1{font-size:15.2vw}
+body.por .deck{font-size:4.25vw;max-width:21ch}
+body.por .when{font-size:2.62vw;margin-bottom:3.4vw}
+body.por .rule{width:22vw;height:1.1vw;margin:3.8vw 0 3.2vw}
+body.por .chips{margin-top:4vw;padding-bottom:0;gap:1.5vw}
+body.por .chip{font-size:2.35vw;padding:1.5vw 2.9vw;border-width:.3vw}
+body.por .wordmark{font-size:2.8vw}
+body.por .hosted{display:none}
+body.por .topbar{padding:4vw 6.5vw 3vw}
+body.por .card{padding:3.8vw 3.6vw 2.6vw;border-radius:2vw}
+body.por .card h2{font-size:2.62vw;margin-bottom:2.6vw}
+body.por .row{padding:1.35vw 0}
+body.por .row b{font-size:2.45vw;flex:0 0 4.7vw}
+body.por .row span{font-size:2.98vw}
+body.por .more{font-size:2.2vw;margin-top:1.7vw;padding-top:1.5vw}
+body.por .footer{font-size:2.45vw;padding:2.8vw 6.5vw;margin-top:auto;
+  flex-direction:column;gap:.9vw;text-align:center}
+body.por .stage::before{background-size:6.5vw 6.5vw}
+</style>
+</head>
+<body>
+<div class="stage">
+
+  <div class="topbar">
+    <div class="wordmark">COMMERCIAL <i>JOB HUNTERS</i></div>
+    <div class="hosted">DFW BORN &middot; NO FLUFF</div>
+  </div>
+
+  <div class="body">
+    <div class="left">
+      <div class="when"><b>FRI OCT 2</b><s>/</s><b>1&ndash;4 PM</b><s>/</s><b>NORTH DALLAS</b></div>
+      <h1>AI Build<em>Session</em></h1>
+      <div class="rule"></div>
+      <p class="deck">Three hours. No slides. You don&rsquo;t leave until <u>your thing actually runs.</u></p>
+      <div class="chips">
+        <div class="chip hot">FREE</div>
+        <div class="chip">20 SEATS</div>
+        <div class="chip">BRING A LAPTOP</div>
+        <div class="chip">OWNERS &amp; OPERATORS</div>
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="card">
+        <h2>WE VOTE. WE BUILD.<br>YOU DEMO IT AT 3:25.</h2>
+        <div class="row"><b>01</b><span>Map every decision maker in your market</span></div>
+        <div class="row"><b>02</b><span>Missed call &rarr; text back in 30 seconds</span></div>
+        <div class="row"><b>03</b><span>Inbound lead &rarr; real reply in 60 seconds</span></div>
+        <div class="row"><b>04</b><span>Notes in &rarr; finished proposal out</span></div>
+        <div class="more">+ 4 more on the menu. The room picks three.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span>COMMERCIALJOBHUNTER.COM</span>
+    <span>HOSTED BY CHRIS &middot; (240) 410-5210</span>
+  </div>
+
+</div>
+</body></html>
