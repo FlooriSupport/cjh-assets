@@ -17,7 +17,7 @@ it, because a designed email reads as marketing and marketing gets archived.
 
 Short one.
 
-Friday, October 2. 1 to 4 PM. North Dallas. Free. 20 seats.
+Friday, October 2. 1 to 4 PM. North Dallas. In person. Free. 20 seats.
 
 It's an AI build session for business owners, and the only thing that makes it different from every other AI event in Dallas is that you leave with something working.
 
@@ -39,7 +39,11 @@ What's on the menu — we vote, top three win:
   7. Voice note after a site visit, CRM note and follow-up email written for you.
   8. Your numbers in, plain-English answer to what's actually making you money.
 
-What to bring: a laptop (not an iPad), a charger, a paid ChatGPT or Claude account, logins for whatever we're automating, and your password manager. Bring real data — a customer list, your last five proposals, your actual inbox.
+You don't need to be technical. You need a laptop, admin access to your own tools, and a paid ChatGPT or Claude account. If you can log into your CRM and your email, you can build what we're building. The people who struggle are never the non-technical ones — they're the ones who can't get into their own systems.
+
+And if you've got someone who handles your marketing or your tech, bring them. This works better with two from the same business: one who knows what's broken, one who knows where the logins are.
+
+Also bring real data — a customer list, your last five proposals, or your actual inbox.
 
 It's free. The price is that you finish something and demo it. There are no observers — 20 seats, 20 people building.
 

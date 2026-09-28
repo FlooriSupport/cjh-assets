@@ -20,7 +20,7 @@ You know the format. Someone puts up a slide that says "AI won't replace you, bu
 
 So I'm running the opposite of that.
 
-Friday, October 2. 1 to 4 PM. North Dallas. Free. 20 seats.
+Friday, October 2. 1 to 4 PM. North Dallas. In person. Free. 20 seats.
 
 You walk in with one real problem in your business. You walk out with it automated and running.
 
@@ -48,7 +48,11 @@ On the menu — we vote, top three win:
 
 It's free. The price is you finish something and demo it. No observers — 20 seats, 20 people building.
 
-Bring a laptop. Not an iPad. And bring your password manager, because people lose entire sessions to password resets.
+You don't need to be technical for this. You need a laptop, admin access to your own tools, and a paid ChatGPT or Claude account. If you can log into your CRM and your email, you're fine.
+
+The people who struggle are never the non-technical ones. They're the ones who can't get into their own systems.
+
+And if you've got a marketing person or a tech person, bring them. Two from the same business works better than one — somebody who knows what's broken, somebody who knows where the logins are.
 
 I'm Yousef. I run Commercial Job Hunters here in DFW — I build decision-maker maps for commercial contractors, 5,955 buyers mapped across Dallas–Fort Worth with verified emails and direct mobiles. I'm not an AI guy who wandered into business. I'm a business guy who got tired of buying lists that were wrong and built the thing myself.
 
@@ -71,7 +75,7 @@ Questions, or you want to know if your build is a fit: (469) 277-9385
 ## Post B — shorter, punchier. Use this instead if you want volume over depth.
 
 ```
-Free AI build session. Friday, North Dallas, 1–4 PM. 20 seats.
+Free AI build session. Friday Oct 2, North Dallas, 1–4 PM, in person. 20 seats.
 
 You bring one problem in your business.
 You leave with it automated.

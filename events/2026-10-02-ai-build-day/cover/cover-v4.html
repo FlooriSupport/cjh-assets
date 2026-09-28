@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Dallas Service Trade Owners — AI Build Session — cover v4</title>
+<style>
+@font-face{font-family:Archivo;src:url(fonts/archivo-400.ttf) format('truetype');font-weight:400}
+@font-face{font-family:Archivo;src:url(fonts/archivo-600.ttf) format('truetype');font-weight:600}
+@font-face{font-family:Archivo;src:url(fonts/archivo-700.ttf) format('truetype');font-weight:700}
+@font-face{font-family:Archivo;src:url(fonts/archivo-900.ttf) format('truetype');font-weight:900}
+
+:root{
+  --ink:#1D1D1B; --paper:#F7F5F1; --grid:#C9C4BC; --accent:#EE5B2B;
+  --muted:#A29C92;
+  --photo:none;      /* build.mjs injects the group shot here */
+  --face:none;       /* ...and the headshot here */
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden;background:var(--ink)}
+body{font-family:Archivo,"Liberation Sans",Arial,sans-serif;color:var(--paper);
+  -webkit-font-smoothing:antialiased}
+.stage{position:relative;width:100vw;height:100vh;display:flex;flex-direction:column;
+  background:var(--ink);overflow:hidden}
+
+.grain{position:absolute;inset:0;z-index:20;pointer-events:none;opacity:.13;
+  mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size:34vw 34vw}
+
+.topbar{position:relative;z-index:10;display:flex;align-items:flex-end;
+  justify-content:space-between;padding:2vw 4.2vw 1.1vw}
+.wordmark{font-weight:900;letter-spacing:.165em;font-size:1.3vw;line-height:1}
+.wordmark i{font-style:normal;color:var(--accent)}
+.kicker{font-weight:700;letter-spacing:.16em;font-size:1vw;color:var(--muted)}
+.hr{position:relative;z-index:10;height:.13vw;background:var(--grid);opacity:.3;margin:0 4.2vw}
+
+.main{position:relative;z-index:10;flex:1;display:flex;min-height:0}
+.left{flex:1 1 60%;display:flex;flex-direction:column;padding:2.3vw 2.4vw 0 4.2vw;min-width:0}
+.right{flex:0 0 36%;position:relative;overflow:hidden}
+
+/* the event label is now the SUBordinate line — the audience is the headline */
+.label{align-self:flex-start;background:var(--accent);color:#fff;font-weight:900;
+  letter-spacing:.155em;font-size:1.12vw;padding:.7vw 1.25vw;margin-bottom:1.8vw}
+
+h1{font-weight:900;letter-spacing:-.036em;line-height:.845;font-size:5.2vw;
+  text-transform:uppercase}
+h1 span{display:block}
+h1 .w{text-shadow:.15vw .13vw 0 rgba(238,91,43,.6)}
+h1 .o{color:var(--accent);text-shadow:.15vw .13vw 0 rgba(247,245,241,.2)}
+
+.when{margin-top:1.5vw;background:var(--accent);color:#fff;font-weight:900;
+  letter-spacing:.085em;font-size:2.08vw;padding:.8vw 1.35vw;line-height:1.12;
+  display:flex;align-items:center;gap:.9vw;align-self:flex-start;
+  box-shadow:.3vw .3vw 0 rgba(0,0,0,.34)}
+.when i{font-style:normal;opacity:.62;font-weight:700}
+.when b{font-weight:900}
+
+.nottech{margin-top:1.2vw}
+.nottech b{display:block;font-weight:900;font-size:1.42vw;letter-spacing:-.012em;
+  color:var(--paper)}
+.nottech span{display:block;font-weight:600;font-size:1.15vw;line-height:1.36;
+  color:#B8B2A8;margin-top:.35vw;max-width:62ch}
+
+.deck{font-weight:600;font-size:1.62vw;line-height:1.3;letter-spacing:-.012em;
+  max-width:50ch;margin-top:1.35vw;color:#EDE9E2}
+.deck b{font-weight:900;color:var(--paper)}
+
+
+.module{margin-top:auto;padding-bottom:1.9vw}
+.modhead{font-weight:900;font-size:.9vw;letter-spacing:.2em;color:var(--muted);
+  margin-bottom:.8vw;padding-top:1.3vw;border-top:.1vw solid rgba(201,196,188,.22)}
+.stats{display:flex;gap:3vw}
+.stat b{display:block;font-weight:900;font-size:2.7vw;line-height:.92;
+  letter-spacing:-.035em;color:var(--paper)}
+.stat b em{font-style:normal;color:var(--accent)}
+.stat span{display:block;font-weight:700;font-size:.97vw;line-height:1.32;
+  letter-spacing:.05em;color:var(--muted);margin-top:.45vw;max-width:22ch}
+
+.photo{position:absolute;inset:0;background:#141412}
+.photo .img{position:absolute;inset:0;background-image:var(--photo);
+  background-size:cover;background-position:50% 18%;
+  filter:grayscale(1) sepia(.95) saturate(2.35) hue-rotate(-24deg)
+          contrast(1.2) brightness(.8)}
+.photo .lo{position:absolute;inset:0;background:#2A1A12;mix-blend-mode:lighten;opacity:.85}
+.photo .hi{position:absolute;inset:0;background:var(--accent);mix-blend-mode:overlay;opacity:.3}
+/* vignette so the background recedes and the face carries the panel */
+.photo .vig{position:absolute;inset:0;
+  background:radial-gradient(ellipse 62% 48% at 56% 30%,rgba(29,29,27,0) 0%,rgba(29,29,27,.3) 52%,rgba(29,29,27,.8) 100%)}
+.photo .dots{position:absolute;inset:0;mix-blend-mode:soft-light;opacity:.5;
+  background-image:radial-gradient(circle at center,rgba(0,0,0,.9) 32%,transparent 33%);
+  background-size:.42vw .42vw}
+.photo .scrim{position:absolute;left:0;right:0;bottom:0;height:34%;
+  background:linear-gradient(to top,rgba(29,29,27,.9) 0%,rgba(29,29,27,.55) 45%,rgba(29,29,27,0) 100%)}
+.photo .fade{position:absolute;inset:0;
+  background:linear-gradient(100deg,var(--ink) 0%,rgba(29,29,27,.7) 12%,rgba(29,29,27,0) 36%)}
+body.nophoto .photo .img,body.nophoto .photo .lo,
+body.nophoto .photo .hi,body.nophoto .photo .dots,
+body.nophoto .photo .vig{display:none}
+.slot{display:none;position:absolute;inset:0;align-items:center;justify-content:center;
+  text-align:center;border-left:.16vw dashed rgba(238,91,43,.55)}
+body.nophoto .slot{display:flex}
+.slot div{font-weight:900;letter-spacing:.16em;font-size:1.2vw;color:var(--accent);line-height:1.9}
+.slot small{display:block;font-weight:700;font-size:.9vw;letter-spacing:.09em;color:var(--muted)}
+
+.stamp{position:absolute;z-index:14;left:60.5%;top:2.6vw;transform:rotate(-5.5deg);
+  background:var(--accent);color:#fff;font-weight:900;letter-spacing:.14em;
+  font-size:1.14vw;padding:.8vw 1.55vw;box-shadow:.32vw .32vw 0 rgba(0,0,0,.38)}
+.signature{position:absolute;z-index:16;right:1.9vw;bottom:1.9vw;
+  display:flex;align-items:center;gap:1.05vw;pointer-events:none}
+.face{flex:0 0 auto;width:6.6vw;height:6.6vw;border-radius:50%;
+  background-image:var(--face);background-size:cover;background-position:50% 32%;
+  border:.34vw solid var(--ink);box-shadow:0 0 0 .16vw rgba(238,91,43,.85);
+  filter:grayscale(1) sepia(.95) saturate(2.35) hue-rotate(-24deg) contrast(1.16) brightness(.98);
+  }
+body.nophoto .face{background:#2A1A12}
+.byline{text-align:right}
+.byline b{display:block;font-weight:900;font-size:1.5vw;letter-spacing:-.015em;
+  text-shadow:0 .1vw .5vw rgba(0,0,0,.55)}
+.byline span{display:block;font-weight:700;font-size:.85vw;letter-spacing:.11em;
+  color:#FFE4D8;margin-top:.3vw;text-shadow:0 .1vw .5vw rgba(0,0,0,.6)}
+
+.footer{position:relative;z-index:10;display:flex;align-items:center;
+  justify-content:space-between;background:var(--accent);color:#fff;
+  padding:1.15vw 4.2vw;font-weight:900;letter-spacing:.135em;font-size:1.16vw}
+.footer span:last-child{font-weight:700;letter-spacing:.1em}
+
+/* ============ square ============ */
+body.sq .main{flex-direction:column}
+body.sq .left{flex:0 0 auto;padding:3vw 5vw 0}
+body.sq .right{flex:1 1 auto;min-height:27vw;width:100%}
+body.sq .wordmark{font-size:1.8vw}body.sq .kicker{font-size:1.4vw}
+body.sq .label{font-size:1.55vw;padding:.95vw 1.7vw;margin-bottom:2.2vw}
+body.sq h1{font-size:7.8vw}
+body.sq .deck{font-size:2.15vw;max-width:56ch;margin-top:1.5vw}
+body.sq .bring{font-size:1.85vw;margin-top:1.7vw}
+body.sq .module{margin-top:2.5vw;padding-bottom:2.5vw}
+body.sq .stat b{font-size:3.4vw}body.sq .stat span{font-size:1.3vw}
+body.sq .photo .fade{background:linear-gradient(to bottom,var(--ink) 0%,rgba(29,29,27,.4) 14%,rgba(29,29,27,0) 40%)}
+body.sq .photo .img{background-position:50% 62%}
+body.sq .stamp{left:auto;right:4vw;top:auto;bottom:28.5vw;font-size:1.6vw;padding:1.05vw 2.1vw}
+body.sq .byline b{font-size:2.4vw}body.sq .byline span{font-size:1.3vw}
+body.sq .footer{font-size:1.55vw;padding:1.6vw 5vw}
+body.sq .slot div{font-size:1.75vw}body.sq .slot small{font-size:1.25vw}
+body.sq .grain{background-size:50vw 50vw}
+body.sq .photo .dots{background-size:.6vw .6vw}
+body.sq .when{font-size:2.35vw;padding:1.05vw 1.8vw;margin-top:1.9vw;gap:1.1vw}
+body.sq .nottech{margin-top:1.8vw}
+body.sq .nottech b{font-size:1.75vw}
+body.sq .nottech span{font-size:1.4vw;max-width:62ch}
+body.sq .signature{right:2.4vw;bottom:2.4vw;gap:1.4vw}
+body.sq .face{width:9vw;height:9vw;border-width:.45vw}
+body.sq .byline b{font-size:2.1vw}
+body.sq .byline span{font-size:1.2vw}
+
+/* ============ portrait ============ */
+body.por .main{flex-direction:column}
+body.por .left{flex:0 0 auto;padding:3.6vw 6vw 0}
+body.por .right{flex:1 1 auto;min-height:44vw;width:100%}
+body.por .wordmark{font-size:2.4vw}body.por .kicker{display:none}
+body.por .label{font-size:2vw;padding:1.2vw 2.2vw;margin-bottom:2.8vw}
+body.por h1{font-size:11vw}
+body.por .deck{font-size:2.8vw;max-width:44ch;margin-top:2vw}
+body.por .bring{font-size:2.3vw;margin-top:2.1vw}
+body.por .module{margin-top:3vw;padding-bottom:3vw}
+body.por .stat b{font-size:5vw}body.por .stat span{font-size:1.62vw}
+body.por .photo .fade{background:linear-gradient(to bottom,var(--ink) 0%,rgba(29,29,27,.55) 9%,rgba(29,29,27,0) 28%)}
+body.por .photo .img{background-position:50% 58%}
+body.por .stamp{left:auto;right:5vw;top:auto;bottom:45.5vw;font-size:2vw;padding:1.35vw 2.7vw}
+body.por .byline b{font-size:3vw}body.por .byline span{font-size:1.65vw}
+body.por .footer{font-size:1.95vw;padding:2.1vw 6vw;flex-direction:column;gap:.75vw;text-align:center}
+body.por .slot div{font-size:2.2vw}body.por .slot small{font-size:1.65vw}
+body.por .grain{background-size:62vw 62vw}
+body.por .photo .dots{background-size:.75vw .75vw}
+body.por .when{font-size:3.4vw;padding:1.4vw 2.2vw;margin-top:2.6vw;gap:1.5vw}
+body.por .when i{opacity:.5}
+body.por .nottech{margin-top:2.4vw}
+body.por .nottech b{font-size:2.6vw}
+body.por .nottech span{font-size:2.05vw;max-width:44ch}
+body.por .signature{right:3vw;bottom:3vw;gap:1.8vw}
+body.por .face{width:12vw;height:12vw;border-width:.6vw}
+body.por .byline b{font-size:2.8vw}
+body.por .byline span{font-size:1.55vw}
+</style>
+</head>
+<body class="nophoto">
+<div class="stage">
+  <div class="grain"></div>
+
+  <div class="topbar">
+    <div class="wordmark">COMMERCIAL <i>JOB HUNTERS</i></div>
+    <div class="kicker">LIVE &amp; IN PERSON &middot; 20 SEATS</div>
+  </div>
+  <div class="hr"></div>
+
+  <div class="main">
+    <div class="left">
+      <div class="label">AI BUILD SESSION</div>
+      <h1><span class="w">Dallas</span><span class="o">Service Trade</span><span class="w">Owners</span></h1>
+      <div class="when"><b>FRIDAY, OCT 2</b><i>/</i><b>1&ndash;4 PM</b><i>/</i><b>NORTH DALLAS</b></div>
+      <p class="deck">We pick the <b>2&ndash;3 automations this room needs</b> and build them together. Three hours, in person, no slides.</p>
+      <div class="nottech"><b>You don&rsquo;t need to be technical.</b>
+        <span>You need a laptop, admin access to your own tools, and a paid AI account.
+              Bring whoever handles your marketing or tech, if you&rsquo;ve got someone.</span></div>
+
+      <div class="module">
+        <div class="modhead">WHO&rsquo;S RUNNING IT</div>
+        <div class="stats">
+          <div class="stat"><b>900<em>+</em></b><span>BUSINESSES HELPED<br>TO GROW PROFIT</span></div>
+          <div class="stat"><b>5,955</b><span>DFW DECISION<br>MAKERS MAPPED</span></div>
+          <div class="stat"><b>6<em> YRS</em></b><span>IN COMMERCIAL<br>SERVICES</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="photo">
+        <div class="img"></div><div class="lo"></div><div class="hi"></div>
+        <div class="dots"></div><div class="vig"></div><div class="scrim"></div><div class="fade"></div>
+        <div class="slot"><div>PHOTO<br>GOES HERE<small>drop photo-group.jpg in /cover</small></div></div>
+      </div>
+      <div class="signature">
+        <div class="byline"><b>Yousef Okasheh</b><span>COMMERCIAL JOB HUNTERS &middot; FLOORI</span></div>
+        <div class="face"></div>
+      </div>
+    </div>
+    <div class="stamp">FREE &middot; 20 SEATS</div>
+  </div>
+
+  <div class="footer">
+    <span>COMMERCIALJOBHUNTER.COM</span>
+    <span>(469) 277-9385</span>
+  </div>
+</div>
+</body></html>

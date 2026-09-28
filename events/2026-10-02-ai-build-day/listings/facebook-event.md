@@ -10,7 +10,7 @@ almost no reach and can't be boosted. Page events can.
 
 ## Event name
 ```
-AI Build Session — Dallas: 3 Hours, You Leave With It Working
+Dallas Service Trade Owners — Live AI Build Session, Fri Oct 2
 ```
 
 ## Description
@@ -18,7 +18,7 @@ AI Build Session — Dallas: 3 Hours, You Leave With It Working
 the whole thing, so they're doing the heavy lifting here.)
 
 ```
-Friday Oct 2, 1–4 PM, North Dallas. Free, 20 seats, bring a laptop.
+LIVE, IN PERSON — Friday Oct 2, 1–4 PM, North Dallas. Free, 20 seats, bring a laptop.
 
 Not a webinar. Not a panel. Not a talk about the future of AI. You walk in with a real problem in your business and walk out three hours later with a working thing that runs without you.
 
@@ -34,6 +34,16 @@ WHAT'S ON THE MENU (we vote, top 3 win)
 6. Every Google review answered in your voice, queued for approval
 7. Talk into your phone after a job site visit → CRM note + follow-up email written for you
 8. Dump your numbers in → plain-English answer to "what's actually making me money"
+
+YOU DON'T NEED TO BE TECHNICAL
+
+This is the part people get wrong about events like this. You are not writing code and you are not learning a programming language.
+
+What you actually need is three things: a laptop, admin access to your own tools, and a paid ChatGPT or Claude account. That's it. If you can log into your CRM and your email, you can build what we're building.
+
+The people who struggle are never the non-technical ones. They're the ones who can't get into their own systems. So if your web guy set up your forms, or your phone system is controlled by a vendor, sort that out before Friday.
+
+And if you have someone who handles your marketing or your tech, bring them. This works better with two people from the same business — one who knows what's broken, one who knows where the logins are.
 
 WHO IT'S FOR
 Owners and operators. Contractors, home services, commercial services, agencies, B2B. If you've got customers and a phone that rings, you're it.

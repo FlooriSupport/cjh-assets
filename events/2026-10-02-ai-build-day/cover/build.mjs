@@ -43,13 +43,14 @@ const SIZES = [
 
 const VARIANTS = v1
   ? [['v1', 'cover-v1.html', '']]
-  : [['v3', 'cover-v3.html', ''],
-     ]; 
+  : [['v4', 'cover-v4.html', '']];
 
-// Find a headshot if one has been dropped in.
-const photo = readdirSync(here).find(f => /^photo\.(jpe?g|png|webp)$/i.test(f));
-if (photo) console.log(`headshot: ${photo}`);
-else       console.log('headshot: none yet — rendering the empty slot');
+// Photos: the group shot fills the panel, the headshot fills the signature disc.
+// Either may be absent — the page falls back to its empty-slot state.
+const find  = re => readdirSync(here).find(f => re.test(f));
+const photo = find(/^photo-group\.(jpe?g|png|webp)$/i) || find(/^photo\.(jpe?g|png|webp)$/i);
+const face  = find(/^photo-face\.(jpe?g|png|webp)$/i)  || find(/^photo\.(jpe?g|png|webp)$/i);
+console.log(`panel: ${photo || 'none'}   signature: ${face || 'none'}`);
 
 const browser = await chromium.launch();
 for (const [vid, file, vclass] of VARIANTS) {
@@ -58,12 +59,13 @@ for (const [vid, file, vclass] of VARIANTS) {
     if (!full && !inReview) continue;
     const page = await browser.newPage({ viewport: { width, height }, deviceScaleFactor: 1 });
     await page.goto(pathToFileURL(join(here, file)).href);
-    await page.evaluate(({ vclass, sclass, photo }) => {
+    await page.evaluate(({ vclass, sclass, photo, face }) => {
       const cls = [vclass, sclass].filter(Boolean);
-      if (photo) document.documentElement.style.setProperty('--photo', `url("${photo}")`);
-      else cls.push('nophoto');
+      const root = document.documentElement.style;
+      if (photo) root.setProperty('--photo', `url("${photo}")`); else cls.push('nophoto');
+      if (face)  root.setProperty('--face',  `url("${face}")`);
       document.body.className = cls.join(' ');
-    }, { vclass, sclass, photo });
+    }, { vclass, sclass, photo, face });
     await page.evaluate(() => document.fonts.ready);
     await page.waitForTimeout(250);
     const name = `${vid}-${sname}.png`;

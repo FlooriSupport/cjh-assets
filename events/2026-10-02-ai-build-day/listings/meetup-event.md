@@ -50,12 +50,12 @@ For Dallas–Fort Worth business owners and operators who are done reading about
 
 **Event title:**
 ```
-AI Build Session — 3 Hours, You Leave With It Working
+Dallas Service Trade Owners — Live AI Build Session, Fri Oct 2
 ```
 
 **Event description:**
 ```
-Friday Oct 2, 1–4 PM, North Dallas. Free. 20 seats. Bring a laptop.
+LIVE, IN PERSON — Friday Oct 2, 1–4 PM, North Dallas. Free. 20 seats. Bring a laptop.
 
 Not a webinar, not a panel, not a talk about the future of AI. You show up with a real problem in your business and leave three hours later with a working thing that runs without you.
 

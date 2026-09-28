@@ -11,6 +11,16 @@ Send as its own email/text Wednesday, and link it from the Luma page.
 ```
 Friday, 1–4 PM. Here's what to do before you show up so you don't lose build time.
 
+YOU DON'T NEED TO BE TECHNICAL
+
+You're not writing code. You need a laptop, admin access to your own tools,
+and a paid AI account. If you can log into your CRM and your email, you're fine.
+
+The people who struggle are never the non-technical ones — they're the ones who
+can't get into their own systems. Which is what the next three minutes are about.
+
+If you've got someone who handles your marketing or your tech, bring them.
+
 TAKES FIVE MINUTES, DO IT TONIGHT
 
 1. A paid ChatGPT Plus or Claude Pro account. $20. The free tiers cut you off

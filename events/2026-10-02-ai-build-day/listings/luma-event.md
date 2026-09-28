@@ -9,7 +9,7 @@
 
 | Setting | Value | Why |
 |---|---|---|
-| Event name | AI Build Session — Dallas | |
+| Event name | Dallas Service Trade Owners — Live AI Build Session, Fri Oct 2 | |
 | Date | Friday, October 2, 2026 | |
 | Time | 1:00 PM – 4:00 PM CT | |
 | Location | Type the venue once you have it. Until then: "North Dallas, TX — exact address sent to registrants." Luma has a **"Hide address until approved/registered"** toggle — turn it on. | Drives registration instead of drive-bys |
@@ -40,7 +40,8 @@ half will answer and become your best attendees.
 (Luma renders markdown. Paste as-is.)
 
 ```
-**Friday, October 2 · 1:00–4:00 PM CT · North Dallas**
+### 🔴 LIVE AND IN PERSON — Friday, October 2
+**1:00–4:00 PM CT · North Dallas, TX**
 Free · 20 seats · Bring a laptop
 
 This is not a webinar, a panel, or a talk about the future of AI.
@@ -67,6 +68,16 @@ You show up with a real problem in your business. Three hours later you leave wi
 **06 · Every Google review answered in your voice,** queued for your approval.
 **07 · Talk into your phone after a site visit** → CRM note, follow-up email, and next task, written for you.
 **08 · Dump your numbers in** → a plain-English answer to "what is actually making me money."
+
+### You don't need to be technical
+
+This is the part people get wrong about events like this. You are not writing code and you are not learning a programming language.
+
+What you actually need is three things: **a laptop, admin access to your own tools, and a paid ChatGPT or Claude account.** That's it. If you can log into your CRM and your email, you can build what we're building.
+
+The people who struggle are never the non-technical ones — they're the ones who can't get into their own systems. So if your web guy set up your forms, or your phone system is controlled by a vendor, sort that out before Friday.
+
+And if you have someone who handles your marketing or your tech, **bring them.** This works better with two people from the same business: one who knows what's broken, one who knows where the logins are.
 
 ### Who this is for
 

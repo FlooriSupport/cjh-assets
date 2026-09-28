@@ -15,7 +15,7 @@ somebody doesn't get the address on Thursday.
 (LinkedIn caps this around 75 characters — this is 61.)
 
 ```
-AI Build Session — Dallas: 3 Hours, You Leave With It Working
+Dallas Service Trade Owners — Live AI Build Session, Fri Oct 2
 ```
 
 ## Event description
@@ -23,7 +23,8 @@ AI Build Session — Dallas: 3 Hours, You Leave With It Working
 pound signs — the line breaks and the · separators do the work.)
 
 ```
-Friday, October 2 · 1:00–4:00 PM CT · North Dallas
+LIVE AND IN PERSON — Friday, October 2
+1:00–4:00 PM CT · North Dallas, TX
 Free · 20 seats · Bring a laptop
 
 This is not a webinar, a panel, or a "future of AI" talk.
@@ -50,6 +51,16 @@ THE MENU — we vote, top three win
 06 · Every Google review answered in your voice, queued for your approval.
 07 · Talk into your phone after a site visit, get back the CRM note, the follow-up email and the next task.
 08 · Dump your numbers in, get a plain-English answer to "what is actually making me money."
+
+YOU DON'T NEED TO BE TECHNICAL
+
+This is the part people get wrong about events like this. You are not writing code and you are not learning a programming language.
+
+What you actually need is three things: a laptop, admin access to your own tools, and a paid ChatGPT or Claude account. That's it. If you can log into your CRM and your email, you can build what we're building.
+
+The people who struggle are never the non-technical ones. They're the ones who can't get into their own systems. So if your web guy set up your forms, or your phone system is controlled by a vendor, sort that out before Friday.
+
+And if you have someone who handles your marketing or your tech, bring them. This works better with two people from the same business — one who knows what's broken, one who knows where the logins are.
 
 WHO THIS IS FOR
 
