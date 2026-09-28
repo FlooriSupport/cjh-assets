@@ -105,7 +105,7 @@ I'm not an AI guy who wandered into business. I'm a business guy who got tired o
 
 RSVP
 
-[LUMA LINK]
+https://luma.com/u0yk9gm7
 
 Twenty seats. Doors at 12:40, we start at 1:00 sharp. Exact North Dallas address goes to registrants Thursday afternoon.
 

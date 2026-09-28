@@ -1,5 +1,8 @@
 # Dallas Service Trade Owners — Live AI Build Session
 **Friday, October 2, 2026 · 1:00–4:00 PM CT · North Dallas · Free · 20 seats**
+**Live: https://luma.com/u0yk9gm7**
+
+> **Launching it? Start at `launch/LAUNCH.md`** — the whole week in order, with every send, post and ad.
 
 Everything for the event is in this folder. Read §1 and §2, then work the checklist in
 `run-of-show/organizer-runbook.md`.
@@ -35,7 +38,7 @@ single thing holding your show rate together on a free event.
 
 | Placeholder | Replace with | Deadline |
 |---|---|---|
-| `[LUMA LINK]` | Your lu.ma URL. Requested slug: `lu.ma/dfw-ai-build` | **Monday — nothing else can start until this exists** |
+| `https://luma.com/u0yk9gm7` | Your lu.ma URL. Live: **https://luma.com/u0yk9gm7** | **Monday — nothing else can start until this exists** |
 | `[VENUE]` / `[FULL ADDRESS]` | Venue name + address. Listings say "North Dallas, address to registrants" until then. | **Tuesday** |
 
 Everything else is final: **Yousef Okasheh**, **(469) 277-9385**, and the three proof
@@ -64,11 +67,18 @@ in front of them with no introduction.
 ## 3. What's in here
 
 ```
+launch/
+  LAUNCH.md             ← the week in order: every send, post and ad
+  ghl-sms.md            SMS copy, the auto-reply workflow, the waves, Thursday confirm
+  facebook-ads.md       campaign spec + copy; creatives in cover/out/ads/
+  linkedin_post.py      posts to LinkedIn via Unipile from your Mac
+
 cover/
   cover-v4.html         the approved cover art, as HTML. Edit here, re-render.
   cover-v3.html         previous drafts, kept for the approval trail
   cover-v1.html
   build.mjs             node build.mjs --full  →  renders every size
+  build-ads.mjs         node build-ads.mjs     →  12 Facebook ad creatives in out/ads/
   photo-group.jpg       work-session shot, cropped to the panel
   photo-face.jpg        headshot, cropped square for the signature disc
   photo.jpg             headshot, cropped tall (used by the v3 layout)
@@ -113,7 +123,7 @@ brief on your own domain, in CJH branding, with the cover, the run of show, the
 non-technical section, and a **Save my seat** button.
 
 Use it as the link you text people who want detail before they commit. Swap
-`[LUMA LINK]` in that file for the button to work. It carries the same GA4 / Google Ads
+`https://luma.com/u0yk9gm7` in that file for the button to work. It carries the same GA4 / Google Ads
 / LinkedIn tags as your other asset pages, so event traffic lands in the properties you
 already retarget from.
 

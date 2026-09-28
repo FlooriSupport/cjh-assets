@@ -47,7 +47,7 @@ Also bring real data — a customer list, your last five proposals, or your actu
 
 It's free. The price is that you finish something and demo it. There are no observers — 20 seats, 20 people building.
 
-Seat's here: [LUMA LINK]
+Seat's here: https://luma.com/u0yk9gm7
 
 I'm approving registrations by hand, and there's a question asking what you want built by 4 PM Friday. Answer it properly and you're in.
 

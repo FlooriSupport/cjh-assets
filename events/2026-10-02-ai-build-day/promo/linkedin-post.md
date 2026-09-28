@@ -63,7 +63,7 @@ Link in the comments. If you're a DFW owner and you want one of the 20, take it.
 
 ## First comment (post ~45 min later)
 ```
-Seats here: [LUMA LINK]
+Seats here: https://luma.com/u0yk9gm7
 
 Free, but I'm approving registrations — there's a question on the form asking what you want built by 4pm. Answer it properly and you're in. 20 seats and I mean 20.
 

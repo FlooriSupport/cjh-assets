@@ -26,7 +26,7 @@ Send Monday evening or Tuesday morning.
 ```
 [First] — I'm running a free AI build session Friday 1–4 in North Dallas. Not a class. You bring one problem in your business, you leave with it automated. 20 seats. Thought of you.
 
-[LUMA LINK]
+https://luma.com/u0yk9gm7
 ```
 
 ## B · The "I picked you specifically" version — use for your best 20
@@ -51,7 +51,7 @@ Send Tuesday.
 
 No slides, no pitch. You pick one thing in your business — missed calls, proposals, follow-up, a list of who to call — and you build it in the room. Everyone demos what they made at the end.
 
-20 seats, laptop required: [LUMA LINK]
+20 seats, laptop required: https://luma.com/u0yk9gm7
 
 — Yousef, Commercial Job Hunters
 ```

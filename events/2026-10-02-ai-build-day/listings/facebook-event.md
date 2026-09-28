@@ -59,7 +59,7 @@ I'm Yousef Okasheh. I run Commercial Job Hunters here in DFW — we help skilled
 
 I'm not an AI guy who found business. I'm a business guy who got tired of buying lists that were wrong and built the thing myself. Everything I'm showing you Friday is something I run in my own companies.
 
-RSVP (this is where seats are actually held): [LUMA LINK]
+RSVP (this is where seats are actually held): https://luma.com/u0yk9gm7
 
 Doors 12:40, we start at 1:00 sharp. Exact North Dallas address goes to registrants Thursday.
 Questions? Text me: (469) 277-9385

@@ -83,6 +83,6 @@ FREE — the price is that you finish something and demo it. No observers.
 
 I'm Yousef Okasheh. I run Commercial Job Hunters here in DFW — 6 years in commercial services, 900+ businesses helped, 5,955 DFW decision makers mapped with verified emails and direct mobiles. I also founded Floori, a product visualizer used by flooring brands worldwide. Everything I'm showing you Friday is something I run in my own companies.
 
-RSVP holds your seat: [LUMA LINK]
+RSVP holds your seat: https://luma.com/u0yk9gm7
 Address goes out Thursday. Questions: (469) 277-9385
 ```
