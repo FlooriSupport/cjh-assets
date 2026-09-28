@@ -1,7 +1,14 @@
 /**
- * Renders cover.html to every size the event listings need.
- *   node build.mjs
- * Chromium comes from PLAYWRIGHT_BROWSERS_PATH; no download needed.
+ * Renders the event cover to every size the listings need.
+ *
+ *   node build.mjs              # review set: both variants, 2 sizes each
+ *   node build.mjs --full       # every variant at every size (do this once approved)
+ *   node build.mjs --v1         # re-render the draft-1 design
+ *
+ * Drop a headshot at cover/photo.jpg (or .png/.jpeg/.webp) and it is picked up
+ * automatically — no edits needed.
+ *
+ * Chromium comes from PLAYWRIGHT_BROWSERS_PATH; nothing to download.
  */
 // Resolve playwright whether it is local or installed globally. NODE_PATH is
 // ignored for ESM, and the global build is CJS, so unwrap `.default` too.
@@ -14,33 +21,55 @@ const pw = await (async () => {
 })();
 const { chromium } = pw;
 
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import { dirname, join } from 'node:path';
-import { mkdirSync } from 'node:fs';
+import { mkdirSync, existsSync, readdirSync } from 'node:fs';
 
 const here = dirname(fileURLToPath(import.meta.url));
-const out = join(here, 'out');
+const out  = join(here, 'out');
 mkdirSync(out, { recursive: true });
 
-const TARGETS = [
-  // name,                       w,    h,    bodyClass, why
-  ['cover-1920x1080',           1920, 1080, '',    'master 16:9 — LinkedIn + Luma + Meetup'],
-  ['cover-853x480',              853,  480, '',    '16:9 at 480px, as requested'],
-  ['cover-1200x675-facebook',   1200,  675, '',    'Facebook event / OG card'],
-  ['cover-1080x1080-square',    1080, 1080, 'sq',  'texting, IG feed, WhatsApp'],
-  ['cover-1080x1920-story',     1080, 1920, 'por', 'IG / FB stories'],
+const full = process.argv.includes('--full');
+const v1   = process.argv.includes('--v1');
+
+// name, w, h, layout class, in the review set?
+const SIZES = [
+  ['1920x1080',          1920, 1080, '',    true ],  // master 16:9 — LinkedIn, Luma
+  ['853x480',             853,  480, '',    true ],  // 16:9 at 480px, as requested
+  ['1200x675-facebook',  1200,  675, '',    false],  // Facebook event / link previews
+  ['1080x1080-square',   1080, 1080, 'sq',  false],  // texting, Instagram, WhatsApp
+  ['1080x1920-story',    1080, 1920, 'por', false],  // stories
 ];
 
+const VARIANTS = v1
+  ? [['v1', 'cover-v1.html', '']]
+  : [['v2a-proof',    'cover-v2.html', ''],          // right module = proof numbers
+     ['v2b-outcomes', 'cover-v2.html', 'outcomes']]; // right module = outcome lines
+
+// Find a headshot if one has been dropped in.
+const photo = readdirSync(here).find(f => /^photo\.(jpe?g|png|webp)$/i.test(f));
+if (photo) console.log(`headshot: ${photo}`);
+else       console.log('headshot: none yet — rendering the empty slot');
+
 const browser = await chromium.launch();
-for (const [name, width, height, cls] of TARGETS) {
-  const page = await browser.newPage({ viewport: { width, height }, deviceScaleFactor: 1 });
-  await page.goto('file://' + join(here, 'cover.html'));
-  if (cls) await page.evaluate(c => document.body.className = c, cls);
-  await page.evaluate(() => document.fonts.ready);
-  await page.waitForTimeout(250);
-  const file = join(out, name + '.png');
-  await page.screenshot({ path: file, type: 'png' });
-  await page.close();
-  console.log(`${name.padEnd(28)} ${width}x${height}`);
+for (const [vid, file, vclass] of VARIANTS) {
+  if (!existsSync(join(here, file))) { console.log(`skip ${file} (missing)`); continue; }
+  for (const [sname, width, height, sclass, inReview] of SIZES) {
+    if (!full && !inReview) continue;
+    const page = await browser.newPage({ viewport: { width, height }, deviceScaleFactor: 1 });
+    await page.goto(pathToFileURL(join(here, file)).href);
+    await page.evaluate(({ vclass, sclass, photo }) => {
+      const cls = [vclass, sclass].filter(Boolean);
+      if (photo) document.documentElement.style.setProperty('--photo', `url("${photo}")`);
+      else cls.push('nophoto');
+      document.body.className = cls.join(' ');
+    }, { vclass, sclass, photo });
+    await page.evaluate(() => document.fonts.ready);
+    await page.waitForTimeout(250);
+    const name = `${vid}-${sname}.png`;
+    await page.screenshot({ path: join(out, name), type: 'png' });
+    await page.close();
+    console.log(`  ${name}`);
+  }
 }
 await browser.close();
