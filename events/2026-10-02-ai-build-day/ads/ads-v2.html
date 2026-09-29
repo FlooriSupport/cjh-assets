@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>ad variants v2</title>
+<style>
+@font-face{font-family:Archivo;src:url(../cover/fonts/archivo-400.ttf);font-weight:400}
+@font-face{font-family:Archivo;src:url(../cover/fonts/archivo-700.ttf);font-weight:700}
+@font-face{font-family:Archivo;src:url(../cover/fonts/archivo-900.ttf);font-weight:900}
+:root{--ink:#1D1D1B;--paper:#F7F5F1;--accent:#EE5B2B;--bg:var(--ink);--fg:var(--paper);--band:var(--accent);--bandfg:#fff;--mute:#A9A49A}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden}
+body{font-family:Archivo,"Liberation Sans",Arial,sans-serif;background:var(--bg);color:var(--fg);-webkit-font-smoothing:antialiased}
+body.white{--bg:#FFFFFF;--fg:#111;--mute:#666;--band:#111;--bandfg:#fff}
+body.black{--bg:#000;--fg:#fff;--mute:#9a9a9a;--band:#fff;--bandfg:#000}
+body.ink{--bg:var(--ink);--fg:var(--paper)}
+.stage{width:100vw;height:100vh;display:flex;flex-direction:column;padding:6.5vw 6.5vw 5.5vw;position:relative}
+.eyebrow{font-weight:900;letter-spacing:.16em;font-size:3.1vw;color:var(--accent);text-transform:uppercase;margin-bottom:2.6vw}
+body.black .eyebrow,body.white .eyebrow{color:var(--accent)}
+h1{font-weight:900;text-transform:uppercase;letter-spacing:-.03em;line-height:.9;text-wrap:balance}
+h1 em{font-style:normal;color:var(--accent)}
+.s1 h1{font-size:12.4vw}.s2 h1{font-size:15.2vw}.s3 h1{font-size:10.6vw}
+.sub{font-weight:700;font-size:4.6vw;line-height:1.22;margin-top:3.4vw;letter-spacing:-.01em;max-width:24ch}
+.sub b{color:var(--accent)}
+.band{margin-top:auto;background:var(--band);color:var(--bandfg);font-weight:900;font-size:4.5vw;letter-spacing:.04em;padding:2.6vw 3vw;line-height:1.15;text-transform:uppercase}
+.band i{font-style:normal;opacity:.55;padding:0 .6vw}
+.foot{display:flex;justify-content:space-between;font-weight:700;font-size:2.9vw;letter-spacing:.1em;color:var(--mute);margin-top:2.6vw;text-transform:uppercase}
+.foot b{color:var(--fg)}
+.strip{position:absolute;left:0;right:0;bottom:0;height:22vw;background:url(../cover/photo-group.jpg) center 60%/cover;
+  filter:grayscale(1) sepia(.95) saturate(2.3) hue-rotate(-24deg) contrast(1.2) brightness(.6)}
+.strip::after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,var(--ink) 0%,rgba(29,29,27,0) 55%)}
+body.hasstrip .stage{padding-bottom:26vw}
+body.hasstrip .foot{display:none}
+.free{position:absolute;top:6vw;right:6.5vw;background:var(--accent);color:#fff;font-weight:900;font-size:3.2vw;letter-spacing:.12em;padding:1.6vw 2.4vw;transform:rotate(-4deg)}
+body.white .free,body.black .free{top:5.5vw}
+</style></head>
+<body class="ink s1">
+<div class="stage">
+  <div class="eyebrow" id="eyebrow">FREE · LIVE · IN PERSON</div>
+  <h1 id="h1">Dallas<br><em>Service Trade</em><br>Owners</h1>
+  <p class="sub" id="sub">3-hour AI workshop. <b>You leave with it built.</b></p>
+  <div class="band" id="band">Fri Oct 2 <i>/</i> 1–4 PM <i>/</i> North Dallas</div>
+  <div class="foot" id="foot"><span><b>20 seats</b> · free</span><span>commercialjobhunter.com</span></div>
+  <div class="free" id="free" hidden>FREE · 20 SEATS</div>
+  <div class="strip" id="strip" hidden></div>
+</div>
+</body></html>
